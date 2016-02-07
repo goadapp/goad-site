@@ -25,6 +25,8 @@ MIT License. Copyright 2016 [Joao Cardoso][], [Matias Korhonen][], [Rasmus Sten]
 
 See the LICENSE file for more details.
 
+[Goad.io]: https://goad.io
+
 [Bootstrap]: http://getbootstrap.com/
 [Bootswatch]: https://bootswatch.com/
 [WebPack]: https://webpack.github.io/
