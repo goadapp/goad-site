@@ -4617,9 +4617,9 @@
       "resolved": "https://registry.npmjs.org/whet.extend/-/whet.extend-0.9.9.tgz"
     },
     "which": {
-      "version": "1.2.2",
+      "version": "1.2.4",
       "from": "which@>=1.2.0 <2.0.0",
-      "resolved": "https://registry.npmjs.org/which/-/which-1.2.2.tgz"
+      "resolved": "https://registry.npmjs.org/which/-/which-1.2.4.tgz"
     },
     "window-size": {
       "version": "0.1.0",
