@@ -1,0 +1,11 @@
+language: node_js
+node_js: '6'
+script: gulp dist
+deploy:
+  provider: pages
+  skip_cleanup: true
+  local_dir: dist
+  on:
+    branch: master
+  github_token:
+    secure: llAma3TDMNt0HMpSwGV9rRA58Apmr+aJDI+EAqc7b5f2KgTF7M2CQKih48qFB2cmEO5VLOb/OjWxe7YvTHxoIgMmM0K9xfJ1jpXc+BSf7ecBGZ5LO/R3KLHLBKk06E/A/4Ac4fGQ4VLQUjBshKF42KAWY4z4FKIU1s+LADS6Nl8VU57QbYd0BvHEKr1rG30UoQ8uoTV963Y23YKQHSElmKQ5v/9Ycl50Rg6OrIQe5tL1XjrwBuA0mMucSV2XOS+4bRmbF1fDIU8GhKZZk1CqZUH56CRpXyZVSjeZ+6C/tjTv3tATy8isG1HgIFFCB6tCM1TDvr9svgjeJBwPGx516ttOEWUYjEuYw7IAOj19IcVIwsG3dzQGKR6FP0R5wvft39zIbssK5PQHte+hKKCLHlCkOk7wbdA6y8a2zua7PlQAGAQjsnl0OHXfRJQsbIgXbvqCrpMFSHnsPN9UMh3iO7UZrbXLKnRrpHrdypQw+XpbaNXtj7xB8Bx78kq44yEA83cqxLE/A0s8VD6Sse8fS5FCN7CJg76VR+AQ4QFR9XWi/2yKBtibKhRPrKNbS6p8o2mU+oo4G+F3XEzUTzyClkg9k57bzeiI6isuVD1xhWEHnbZRWr9f1VVqV/nCt0xwvmx4VUcf8IcLfwv+jkb5MP3wf4CC9Vkh5w+ZKFJacOc=
