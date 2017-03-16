@@ -1,21 +1,21 @@
 {
   "name": "goad-site",
   "version": "1.0.0",
-  "description": "Site for goad project",
+  "description": "Site for the Goad project",
   "main": "src/js/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gophergala2016/goad.git"
+    "url": "git+https://github.com/goadapp/goad-site.git"
   },
-  "author": "The goad team",
+  "author": "The Goad team",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gophergala2016/goad/issues"
+    "url": "https://github.com/goadapp/goad-site/issues"
   },
-  "homepage": "https://github.com/gophergala2016/goad#readme",
+  "homepage": "https://github.com/goadapp/goad-site#readme",
   "devDependencies": {
     "autoprefixer": "^6.3.1",
     "babel-core": "^6.4.5",
