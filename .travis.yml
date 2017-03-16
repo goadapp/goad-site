@@ -5,6 +5,7 @@ deploy:
   provider: pages
   skip_cleanup: true
   local_dir: dist
+  fqdn: goad.io
   on:
     branch: master
   github_token:
