@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/app.jsx';
 import Downloads from './components/downloads.jsx';
 var smoothScroll = require('smoothscroll');
 
@@ -15,14 +14,32 @@ function ready(fn) {
 window.React = React;
 window.ReactDOM = ReactDOM;
 
-ReactDOM.render(<App />, document.getElementById("demo-app"));
-
 const binaries = [
-  { os: "OS X", architecture: 64, url: "https://github.com/gophergala2016/goad/releases/download/v1.2.0/goad-gopher-gala-osx-x86-64.zip" },
-  { os: "Linux", architecture: 32, url: "https://github.com/gophergala2016/goad/releases/download/v1.2.0/goad-gopher-gala-linux-x86.zip" },
-  { os: "Linux", architecture: 64, url: "https://github.com/gophergala2016/goad/releases/download/v1.2.0/goad-gopher-gala-linux-x86-64.zip" },
-  { os: "Windows", architecture: 32, url: "https://github.com/gophergala2016/goad/releases/download/v1.2.0/goad-gopher-gala-windows-x86.zip" },
-  { os: "Windows", architecture: 64, url: "https://github.com/gophergala2016/goad/releases/download/v1.2.0/goad-gopher-gala-windows-x86-64.zip" },
+  {
+    os: "macOS",
+    architecture: 64,
+    url: "https://github.com/gophergala2016/goad/releases/download/v1.3.0/goad-gopher-gala-osx-x86-64.zip"
+  },
+  {
+    os: "Linux",
+    architecture: 32,
+    url: "https://github.com/gophergala2016/goad/releases/download/v1.3.0/goad-gopher-gala-linux-x86.zip"
+  },
+  {
+    os: "Linux",
+    architecture: 64,
+    url: "https://github.com/gophergala2016/goad/releases/download/v1.3.0/goad-gopher-gala-linux-x86-64.zip"
+  },
+  {
+    os: "Windows",
+    architecture: 32,
+    url: "https://github.com/gophergala2016/goad/releases/download/v1.3.0/goad-gopher-gala-windows-x86.zip"
+  },
+  {
+    os: "Windows",
+    architecture: 64,
+    url: "https://github.com/gophergala2016/goad/releases/download/v1.3.0/goad-gopher-gala-windows-x86-64.zip"
+  },
 ];
 
 ReactDOM.render(<Downloads binaries={binaries} />, document.getElementById("downloads"));
