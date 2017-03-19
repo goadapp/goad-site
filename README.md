@@ -1,9 +1,10 @@
 # Goad website
 
+[![Build Status](https://travis-ci.org/goadapp/goad-site.svg?branch=master)](https://travis-ci.org/goadapp/goad-site)
+
 <https://goad.io>
 
-Goad is an AWS Lambda powered, highly distributed,
-load testing tool. This is the website for it.
+Goad is an AWS Lambda powered, highly distributed, load testing tool. This is the website for it.
 
 ## [Goad.io][] site
 
